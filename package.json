@@ -1,0 +1,17 @@
+{
+  "name": "mutliple-cra",
+  "version": "1.0.0",
+  "description": "\"POC for multiple-cra\"",
+  "main": "index.js",
+  "repository": "https://github.com/Propelius-Technologies/multiple-cra.git",
+  "author": "iarmankhan <work.armankhan@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "install-client1": "cd client1 && yarn",
+    "build-client1": "cd client1 && yarn build",
+    "install-client2": "cd client2 && yarn",
+    "build-client2": "cd client2 && yarn build",
+    "install-all": "yarn install-client1 && yarn install-client2",
+    "build-all": "yarn build-client1 && yarn build-client2"
+  }
+}
